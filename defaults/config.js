@@ -56,7 +56,7 @@ module.exports = {
 	//
 	// Prefetch URLs
 	//
-	// If enabled, Shout will try to load thumbnails and site descriptions from
+	// If enabled, paranoid-irc will try to load thumbnails and site descriptions from
 	// URLs posted in channels.
 	//
 	// @type     boolean
@@ -67,7 +67,7 @@ module.exports = {
 	//
 	// Prefetch URLs Image Preview size limit
 	//
-	// If prefetch is enabled, Shout will only display content under the maximum size.
+	// If prefetch is enabled, paranoid-irc will only display content under the maximum size.
 	// Default value is 512 (in kB)
 	//
 	// @type     int
@@ -78,7 +78,7 @@ module.exports = {
 	//
 	// Display network
 	//
-	// If set to false Shout will not expose network settings in login
+	// If set to false paranoid-irc will not expose network settings in login
 	// form, limiting client to connect to the configured network.
 	//
 	// @type     boolean
@@ -124,17 +124,17 @@ module.exports = {
 		// Name
 		//
 		// @type     string
-		// @default  "Freenode"
+		// @default  "Paranoid-IRC"
 		//
-		name: "Freenode",
+		name: "Paranoid-IRC",
 
 		//
 		// Host
 		//
 		// @type     string
-		// @default  "irc.freenode.org"
+		// @default  "paranoid-irc.herokuapp.com
 		//
-		host: "irc.freenode.org",
+		host: "paranoid-irc.herokuapp.com",
 
 		//
 		// Port
@@ -164,33 +164,33 @@ module.exports = {
 		// Nick
 		//
 		// @type     string
-		// @default  "shout-user"
+		// @default  "Paranoid-User"
 		//
-		nick: "shout-user",
+		nick: "Paranoid-User",
 
 		//
 		// Username
 		//
 		// @type     string
-		// @default  "shout-user"
+		// @default  "paranoid-user"
 		//
-		username: "shout-user",
+		username: "Paranoid-User",
 
 		//
 		// Real Name
 		//
 		// @type     string
-		// @default  "Shout User"
+		// @default  "Paranoid User"
 		//
-		realname: "Shout User",
+		realname: "Paranoid User",
 
 		//
 		// Channels
 		//
 		// @type     string
-		// @default  "#foo, #shout-irc"
+		// @default  "#room, #paranoid-irc"
 		//
-		join: "#foo, #shout-irc"
+		join: "#room, #paranoid-irc"
 	},
 
 	//
@@ -202,7 +202,7 @@ module.exports = {
 	transports: ["polling", "websocket"],
 
 	//
-	// Run Shout with HTTPS support.
+	// Run paranoid-irc with HTTPS support.
 	//
 	// @type     object
 	// @default  {}
@@ -236,7 +236,7 @@ module.exports = {
 	},
 
 	//
-	// Run Shout with identd support.
+	// Run paranoid-irc with identd support.
 	//
 	// @type     object
 	// @default  {}
