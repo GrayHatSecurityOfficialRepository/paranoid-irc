@@ -1,3 +1,3 @@
 # Paranoid - IRC
 
-## A Secure IRC Client-Server
+## A Secure IRC Client
